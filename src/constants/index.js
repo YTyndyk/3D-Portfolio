@@ -1,7 +1,5 @@
 import {
-	car,
 	css,
-	estate,
 	express,
 	git,
 	github,
@@ -12,14 +10,10 @@ import {
 	mui,
 	nextjs,
 	nodejs,
-	pricewise,
 	react,
 	redux,
 	sass,
-	snapgram,
-	summiz,
 	tailwindcss,
-	threads,
 	typescript,
 } from "../assets/icons";
 
@@ -133,51 +127,45 @@ export const socialLinks = [
 
 export const projects = [
 	{
-		// iconUrl: pricewise,
 		theme: "btn-back-red",
 		name: "3D-Portfolio",
 		description:
-			"Developed 3D portfolio with fun interactive parts, like a floating island and a fox that moves when you type. The website demonstrates your skills, abilities, achievements, and experience in a specific fields",
+			"Developed 3D portfolio with fun interactive parts, like a floating island and a fox that moves when you type. The website demonstrates your skills, abilities, achievements, and experience in a specific fields.",
 		link: "https://3-d-portfolio-neon-eta.vercel.app/",
 	},
 	{
-		iconUrl: threads,
 		theme: "btn-back-green",
-		name: "Full Stack Threads Clone",
+		name: "Phonebook",
 		description:
-			'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-		link: "https://github.com/adrianhajdin/threads",
+			"A phonebook connected to Swager backend API - you can register, log in, add, remove or filter contacts, and log out. [React (Hooks, Routers, Redux, Redux Toolkit, Redux-Persist, React-Hot-Toast, JS, Ant Design].",
+		link: "https://ytyndyk.github.io/goit-react-hw-08-phonebook/",
 	},
 	{
-		iconUrl: car,
 		theme: "btn-back-blue",
-		name: "Car Finding App",
+		name: "WebStudio",
 		description:
-			"Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-		link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+			"A landing page with a home page describing what this web studio does and the development team. The second page shows examples of work.",
+		link: "https://ytyndyk.github.io/goit-markup-hw-08/",
 	},
 	{
-		iconUrl: snapgram,
 		theme: "btn-back-pink",
-		name: "Full Stack Instagram Clone",
+		name: "Movies",
 		description:
-			"Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-		link: "https://github.com/adrianhajdin/social_media_app",
+			"Developed a movie search application which allows you to find your favorite movie and provides comprehensive information about it.",
+		link: "https://ytyndyk.github.io/goit-react-hw-05-movies/",
 	},
 	{
-		iconUrl: estate,
 		theme: "btn-back-black",
-		name: "Real-Estate Application",
+		name: "Ice cream",
 		description:
-			"Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-		link: "https://github.com/adrianhajdin/projects_realestate",
+			"Developed website featuring a responsive layout, burger menu, modal window, and an attractive design. The website facilitates searches favorite flavors and connects buyers with sellers.",
+		link: "https://roman10rb.github.io/team-iceCream/",
 	},
 	{
-		iconUrl: summiz,
 		theme: "btn-back-yellow",
-		name: "AI Summarizer Application",
+		name: "Image finder",
 		description:
-			"App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-		link: "https://github.com/adrianhajdin/project_ai_summarizer",
+			"App for searching images by keyword using Pixabay API. A simple interface, fast and reliable performance in searching for the needed images. It includes statistics on preferences and downloads.",
+		link: "https://ytyndyk.github.io/goit-js-hw-11/",
 	},
 ];
