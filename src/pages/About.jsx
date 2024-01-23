@@ -45,8 +45,9 @@ const About = () => {
 				<h3 className="subhead-text">Work Experience</h3>
 				<div className="mt-5 flex flex-col gap-3 text-slate-500">
 					<p>
-						I've worked with all sorts of companies, leveling up my skills and
-						teaming up with smart people. Here's the rundown:
+						I've successfuly completed Full stack Developer course at GoIT,
+						leveling up my skills and teaming up with smart people. Here's the
+						rundown:
 					</p>
 				</div>
 				<div className="mt-12 flex">
@@ -58,9 +59,9 @@ const About = () => {
 								icon={
 									<div className="flex justify-center items-center w-full h-full">
 										<img
-											src={experience.icon}
+											src="https://itcluster.lviv.ua/wp-content/uploads/2023/03/goit.png"
 											alt={experience.company_name}
-											className="w-[60%] h-[60%] object-contain"
+											className="w-[100%] h-[100%] object-contain"
 										/>
 									</div>
 								}

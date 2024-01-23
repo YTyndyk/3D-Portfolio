@@ -1,7 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
 	car,
-	contact,
 	css,
 	estate,
 	express,
@@ -11,7 +9,6 @@ import {
 	javascript,
 	linkedin,
 	mongodb,
-	motion,
 	mui,
 	nextjs,
 	nodejs,
@@ -28,54 +25,24 @@ import {
 
 export const skills = [
 	{
+		imageUrl: html,
+		name: "HTML",
+		type: "Frontend",
+	},
+	{
 		imageUrl: css,
 		name: "CSS",
 		type: "Frontend",
 	},
 	{
-		imageUrl: express,
-		name: "Express",
-		type: "Backend",
-	},
-	{
-		imageUrl: git,
-		name: "Git",
-		type: "Version Control",
-	},
-	{
-		imageUrl: github,
-		name: "GitHub",
-		type: "Version Control",
-	},
-	{
-		imageUrl: html,
-		name: "HTML",
+		imageUrl: sass,
+		name: "Sass",
 		type: "Frontend",
 	},
 	{
 		imageUrl: javascript,
 		name: "JavaScript",
 		type: "Frontend",
-	},
-	{
-		imageUrl: mongodb,
-		name: "MongoDB",
-		type: "Database",
-	},
-	{
-		imageUrl: mui,
-		name: "Material-UI",
-		type: "Frontend",
-	},
-	{
-		imageUrl: nextjs,
-		name: "Next.js",
-		type: "Frontend",
-	},
-	{
-		imageUrl: nodejs,
-		name: "Node.js",
-		type: "Backend",
 	},
 	{
 		imageUrl: react,
@@ -88,8 +55,39 @@ export const skills = [
 		type: "State Management",
 	},
 	{
-		imageUrl: sass,
-		name: "Sass",
+		imageUrl: nodejs,
+		name: "Node.js",
+		type: "Backend",
+	},
+	{
+		imageUrl: express,
+		name: "Express",
+		type: "Backend",
+	},
+	{
+		imageUrl: mongodb,
+		name: "MongoDB",
+		type: "Database",
+	},
+	{
+		imageUrl: git,
+		name: "Git",
+		type: "Version Control",
+	},
+	{
+		imageUrl: github,
+		name: "GitHub",
+		type: "Version Control",
+	},
+
+	{
+		imageUrl: mui,
+		name: "Material-UI",
+		type: "Frontend",
+	},
+	{
+		imageUrl: nextjs,
+		name: "Next.js",
 		type: "Frontend",
 	},
 	{
@@ -106,50 +104,11 @@ export const skills = [
 
 export const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#accbe1",
-		date: "March 2020 - April 2021",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#fbc3bc",
-		date: "Jan 2021 - Feb 2022",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#b7e4c7",
-		date: "Jan 2022 - Jan 2023",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
 		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#a2d2ff",
-		date: "Jan 2023 - Present",
+		company_name: "GoIT",
+
+		iconBg: "white",
+		date: "Octovber 2022 - September 2023",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -161,30 +120,25 @@ export const experiences = [
 
 export const socialLinks = [
 	{
-		name: "Contact",
-		iconUrl: contact,
-		link: "/contact",
-	},
-	{
 		name: "GitHub",
 		iconUrl: github,
-		link: "https://github.com/YourGitHubUsername",
+		link: "https://github.com/YTyndyk",
 	},
 	{
 		name: "LinkedIn",
 		iconUrl: linkedin,
-		link: "https://www.linkedin.com/in/YourLinkedInUsername",
+		link: "https://linkedin.com/in/iuliia-tyndyk",
 	},
 ];
 
 export const projects = [
 	{
-		iconUrl: pricewise,
+		// iconUrl: pricewise,
 		theme: "btn-back-red",
-		name: "Amazon Price Tracker",
+		name: "3D-Portfolio",
 		description:
-			"Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-		link: "https://github.com/adrianhajdin/pricewise",
+			"Developed 3D portfolio with fun interactive parts, like a floating island and a fox that moves when you type. The website demonstrates your skills, abilities, achievements, and experience in a specific fields",
+		link: "https://3-d-portfolio-neon-eta.vercel.app/",
 	},
 	{
 		iconUrl: threads,
