@@ -9,7 +9,7 @@ const Footer = () => {
 
 			<div className="footer-container">
 				<p>
-					© 2023 <strong>Iuliia Tyndyk</strong>. Made with 💙
+					© 2024 <strong>Iuliia Tyndyk</strong>. Made with 💙
 				</p>
 
 				<div className="flex gap-3 justify-center items-center">
