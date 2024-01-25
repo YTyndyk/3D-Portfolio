@@ -23,7 +23,7 @@
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Homepage**: Showcases the use of 3D geometry with three.js and React Three fiber, featuring a 3D model of an island with animation created using frame motion to engage the user. With each subsequent turn, pop-ups appear with suggestions to navigate to another section.
+👉 **Homepage**: Showcases the use of 3D geometry with three.js and React Three fiber, featuring a 3D model of an island with animation created using frame motion to engage the user. With each subsequent turn, pop-ups appear with suggestions to navigate to another section. Also, a button was implemented that activates sound, immersing you into a wonderful world completely.
 
 👉 **Section About**: Demonstrates skills and work experience, beautifully animated using React Vertical Timeline.
 <table align="center">
